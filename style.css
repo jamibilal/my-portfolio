@@ -1,0 +1,10 @@
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+        flex-direction: column;
+    }
+}
