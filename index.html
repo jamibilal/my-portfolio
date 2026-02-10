@@ -3,17 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Your Name | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>Navigation Menu</nav>
-    
-    <section id="about">About Me</section>
-    <section id="skills">My Skills</section>
-    <section id="projects">My Work</section>
-    <section id="contact">Contact Me</section>
 
-    <footer>© 2026 Your Name</footer>
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to My Trial Site</h1>
+        <p>A beginner's journey into web development.</p>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hi, I am a beginner web developer learning HTML and CSS. This is my first portfolio website. This site is a trial work done by me to practice my front-end skills.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Technical Skills</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Python</h3>
+                <p>Logic and backend programming.</p>
+            </div>
+            <div class="card">
+                <h3>DBMS</h3>
+                <p>Database management and structure.</p>
+            </div>
+            <div class="card">
+                <h3>Computer Networks</h3>
+                <p>Understanding connectivity and protocols.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>This Website</h3>
+                <p>My first live project hosted on GitHub Pages.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or just a chat!</p>
+        <a href="mailto:xyz@gmail.com" class="btn">xyz@gmail.com</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Your Name</p>
+    </footer>
+
 </body>
 </html>
